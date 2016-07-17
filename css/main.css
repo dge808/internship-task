@@ -1,0 +1,132 @@
+main {
+  font-family: 'Open Sans', sans-serif; }
+  main .main-background-container {
+    background: url("/ciklum/img/background--mac--female.jpg");
+    background-color: #eeeeee;
+    background-position: 75%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 700px;
+    min-width: 1770px;
+    left: -240px; }
+    main .main-background-container .main-content {
+      height: 700px;
+      padding-top: 75px;
+      padding-bottom: 75px;
+      padding-right: 250px;
+      text-align: left;
+      max-width: 990px;
+      margin: 0 auto;
+      color: #47525d;
+      font-weight: 100;
+      position: absolute;
+      left: 150px; }
+      main .main-background-container .main-content h1.header {
+        text-align: left;
+        font-size: 47px;
+        line-height: 62px;
+        padding-right: 100px; }
+      main .main-background-container .main-content h2.subheader {
+        font-size: 20px;
+        line-height: 32px;
+        padding-right: 380px; }
+      main .main-background-container .main-content .try-trial {
+        margin-top: 25px;
+        background-color: #0071e0;
+        text-align: center;
+        padding: 16px 30px;
+        border: none;
+        border-radius: 5px; }
+        main .main-background-container .main-content .try-trial a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 21px; }
+      main .main-background-container .main-content .try-trial:hover {
+        background-color: #3398ea; }
+      main .main-background-container .main-content .buy-trial {
+        font-size: 16px;
+        margin-top: 15px; }
+        main .main-background-container .main-content .buy-trial a {
+          color: #3398ea;
+          text-decoration: underline; }
+  main .subscription {
+    background: #323a45;
+    padding: 160px 0 145px;
+    height: 533px; }
+    main .subscription .subscription-content {
+      max-width: 1320px;
+      margin: 0 auto;
+      text-align: center; }
+      main .subscription .subscription-content h2 {
+        color: #fff;
+        text-align: center; }
+      main .subscription .subscription-content .terms {
+        font-size: 12px;
+        color: #747c83;
+        line-height: 1.8em; }
+        main .subscription .subscription-content .terms a {
+          color: #747c83;
+          text-decoration: underline; }
+    main .subscription .signup_form {
+      max-width: 1100px;
+      margin: 0 auto;
+      margin-top: 55px;
+      margin-bottom: 31px; }
+      main .subscription .signup_form input {
+        padding: 20px;
+        border-radius: 4px;
+        border: none;
+        width: 24%;
+        margin-right: 1%; }
+      main .subscription .signup_form button {
+        width: 24%;
+        background: #ff3366;
+        padding: 24px 20px;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 14px;
+        line-height: 1em;
+        text-transform: uppercase; }
+  main .special .special-item-wrapper {
+    display: inline-block;
+    height: 300px;
+    width: 33.3%;
+    overflow: hidden; }
+    main .special .special-item-wrapper .special-item {
+      height: 300px;
+      width: 100%;
+      display: inline-block;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: transform .3s, opacity .3s;
+      position: relative; }
+      main .special .special-item-wrapper .special-item:hover {
+        transform: scale(1.1, 1.1); }
+        main .special .special-item-wrapper .special-item:hover .darken {
+          opacity: 0; }
+      main .special .special-item-wrapper .special-item .darken {
+        background: black;
+        opacity: 0.3;
+        height: 300px;
+        position: absolute;
+        left: 0;
+        width: 100%; }
+      main .special .special-item-wrapper .special-item a {
+        position: absolute;
+        width: 100%; }
+        main .special .special-item-wrapper .special-item a:hover {
+          text-decoration: none; }
+      main .special .special-item-wrapper .special-item .special-content {
+        text-align: center;
+        margin: 110px auto; }
+        main .special .special-item-wrapper .special-item .special-content h4 {
+          color: #a4a5a6;
+          font-size: 12px;
+          letter-spacing: 2px;
+          line-height: 16px; }
+        main .special .special-item-wrapper .special-item .special-content h3 {
+          color: #fff;
+          font-size: 22px;
+          line-height: 28px; }
