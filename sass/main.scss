@@ -53,9 +53,9 @@ main{
         font-size: 16px;
         margin-top: 15px;
         a{
-        color: #3398ea;
+          color: #3398ea;
           text-decoration: underline;
-      }
+        }
       }
     }
   }
@@ -110,6 +110,7 @@ main{
   }
 
   .special{
+    height:300px;
     .special-item-wrapper {
       display: inline-block;
       height: 300px;

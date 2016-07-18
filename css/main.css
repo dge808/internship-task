@@ -88,45 +88,47 @@ main {
         font-size: 14px;
         line-height: 1em;
         text-transform: uppercase; }
-  main .special .special-item-wrapper {
-    display: inline-block;
-    height: 300px;
-    width: 33.3%;
-    overflow: hidden; }
-    main .special .special-item-wrapper .special-item {
-      height: 300px;
-      width: 100%;
+  main .special {
+    height: 300px; }
+    main .special .special-item-wrapper {
       display: inline-block;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      transition: transform .3s, opacity .3s;
-      position: relative; }
-      main .special .special-item-wrapper .special-item:hover {
-        transform: scale(1.1, 1.1); }
-        main .special .special-item-wrapper .special-item:hover .darken {
-          opacity: 0; }
-      main .special .special-item-wrapper .special-item .darken {
-        background: black;
-        opacity: 0.3;
+      height: 300px;
+      width: 33.3%;
+      overflow: hidden; }
+      main .special .special-item-wrapper .special-item {
         height: 300px;
-        position: absolute;
-        left: 0;
-        width: 100%; }
-      main .special .special-item-wrapper .special-item a {
-        position: absolute;
-        width: 100%; }
-        main .special .special-item-wrapper .special-item a:hover {
-          text-decoration: none; }
-      main .special .special-item-wrapper .special-item .special-content {
-        text-align: center;
-        margin: 110px auto; }
-        main .special .special-item-wrapper .special-item .special-content h4 {
-          color: #a4a5a6;
-          font-size: 12px;
-          letter-spacing: 2px;
-          line-height: 16px; }
-        main .special .special-item-wrapper .special-item .special-content h3 {
-          color: #fff;
-          font-size: 22px;
-          line-height: 28px; }
+        width: 100%;
+        display: inline-block;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: transform .3s, opacity .3s;
+        position: relative; }
+        main .special .special-item-wrapper .special-item:hover {
+          transform: scale(1.1, 1.1); }
+          main .special .special-item-wrapper .special-item:hover .darken {
+            opacity: 0; }
+        main .special .special-item-wrapper .special-item .darken {
+          background: black;
+          opacity: 0.3;
+          height: 300px;
+          position: absolute;
+          left: 0;
+          width: 100%; }
+        main .special .special-item-wrapper .special-item a {
+          position: absolute;
+          width: 100%; }
+          main .special .special-item-wrapper .special-item a:hover {
+            text-decoration: none; }
+        main .special .special-item-wrapper .special-item .special-content {
+          text-align: center;
+          margin: 110px auto; }
+          main .special .special-item-wrapper .special-item .special-content h4 {
+            color: #a4a5a6;
+            font-size: 12px;
+            letter-spacing: 2px;
+            line-height: 16px; }
+          main .special .special-item-wrapper .special-item .special-content h3 {
+            color: #fff;
+            font-size: 22px;
+            line-height: 28px; }
